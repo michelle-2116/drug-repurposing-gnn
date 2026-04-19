@@ -1,0 +1,50 @@
+# Data & Models
+data/
+models/
+*.pkl
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.faiss
+*.index
+
+# Secrets
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+wandb/
+
+# React
+frontend/node_modules/
+frontend/build/
+frontend/.env

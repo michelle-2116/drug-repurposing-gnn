@@ -1,0 +1,26 @@
+# ---- Core Graph ----
+networkx==3.2
+hetnetpy==0.3.1
+
+# ---- GNN ----
+pykeen==1.10.2
+torch==2.1.0
+
+# ---- RAG ----
+faiss-cpu==1.7.4
+sentence-transformers==2.3.1
+
+# ---- LLM ----
+transformers==4.40.0
+accelerate==0.27.0
+bitsandbytes==0.43.0
+
+# ---- Backend ----
+fastapi==0.110.0
+uvicorn==0.27.0
+
+# ---- Utilities ----
+python-dotenv==1.0.0
+pandas==2.1.0
+numpy==1.26.0
+tqdm==4.66.0
