@@ -79,10 +79,3 @@ def print_path(drug_id: str, disease_id: str):
     for step in path:
         print('  ' + step)
 
-ALZHEIMER = "Disease::DOID:10652"
-
-print_path("Compound::DB00620", ALZHEIMER)
-print_path("Compound::DB00694", ALZHEIMER)
-print_path("Compound::DB01234", ALZHEIMER)
-print_path("Compound::DB01235", ALZHEIMER)
-print_path("Compound::DB00674", ALZHEIMER)
